@@ -19,6 +19,31 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+
+/* SCROLL BAR */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F5F5F5; 
+    border-radius: 5px;
+  }
+ 
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C7C7C7; 
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.6); 
+  }
+/* /SCROLL BAR */
+
 h1, h2, h3, h4, h5{
   font-weight: 900;
 }

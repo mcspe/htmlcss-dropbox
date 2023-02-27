@@ -42,99 +42,152 @@ header .top-sec:hover{
 header .logo{
   vertical-align: middle;
 }
+/* /HEADER */
 
 
 /* MAIN */
-/* JUMBOTRON */
-main{
-  margin-top: 60px;
-}
 
-main section{
-  padding: 80px 0 0;
-}
+  /* JUMBOTRON */
+  main{
+    margin-top: 60px;
+  }
 
-main .jumbotron{
-  background-color: #B4D0E7;
-  min-height: 600px;
-  margin-bottom: 100px;
-}
+  main section{
+    padding: 80px 0 0;
+  }
 
-main h1{
-  font-size: 60px;
-  font-weight: 700;
-}
+  main .jumbotron{
+    background-color: #B4D0E7;
+    min-height: 600px;
+    margin-bottom: 100px;
+  }
 
-main .jumbotron .content-row{
-  position: relative;
-}
+  main h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
 
-main .jumbotron .text-col{
-  width: calc(100% / 3);
-  padding-right: 50px;
-}
+  main .jumbotron .content-row{
+    position: relative;
+  }
 
-main .jumbotron .text-col p{
-  font-size: .9rem;
-}
+  main .jumbotron .text-col{
+    width: calc(100% / 3);
+    padding-right: 50px;
+  }
 
-main .jumbotron .trial span{
-  font-size: .7rem;
-  line-height: 40px;
-}
+  main .jumbotron .text-col p{
+    font-size: .9rem;
+  }
 
-main .jumbotron .start{
-  font-size: 3rem;
-  color: black;
-}
+  main .jumbotron .trial span{
+    font-size: .7rem;
+    line-height: 40px;
+  }
 
-main .jumbotron .img-col{
-  width: calc((100% / 3) * 2);
-  max-width: 800px;
-  position: absolute;
-  top: 0;
-  left: 33%;
-}
+  main .jumbotron .start{
+    font-size: 3rem;
+    color: black;
+  }
 
-main .jumbotron .img-col img{
-  max-width: 100%;
-  object-fit: cover;
-}
-/* /JUMBOTRON */
+  main .jumbotron .img-col{
+    width: calc((100% / 3) * 2);
+    max-width: 800px;
+    position: absolute;
+    top: 0;
+    left: 33%;
+  }
+
+  main .jumbotron .img-col img{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  /* /JUMBOTRON */
 
 
-/* SEZIONE SELEZIONA IL TUO PIANO */
-main .plan h2{
-  font-size: 35px;
-}
+  /* SEZIONE SELEZIONA IL TUO PIANO */
+  main .plan h2{
+    font-size: 35px;
+  }
 
-main form label{
-  margin-right: 20px;
-}
+  main form label{
+    margin-right: 20px;
+  }
 
-/* BOX PIANI PER PRIVATI */
-main .plan .plan-card{
-  border: 1px solid #E6E6E8;
-}
+    /* BOX PIANI PER PRIVATI */
+    main .plan .plan-card{
+      border: 1px solid #E6E6E8;
+    }
 
-main .plan .plan-card.private{
-  width: 30%;
-  min-height: 800px;
-}
+    main .plan .plan-card.private{
+      width: 30%;
+      min-height: 800px;
+    }
 
-main .plan .plan-tag{
-  border-bottom: 1px solid #E6E6E8;
-  text-align: center;
-  padding: 5px;
-  font-size: .9rem;
-  font-weight: bold;
-}
+    main .plan .plan-tag{
+      border-bottom: 1px solid #E6E6E8;
+      text-align: center;
+      padding: 5px;
+      font-size: .9rem;
+      font-weight: bold;
+    }
 
-main .plan .plan-description{
-  padding: 20px;
-}
+    main .plan .plan-description{
+      padding: 20px;
+    }
 
-/* /BOX PIANI PER PRIVATI */
-/* /SEZIONE SELEZIONA IL TUO PIANO */
+    main .plan .plan-type{
+      font-size: 1.2rem;
+    }
+
+    main .plan .price{
+      font-size: .8rem;
+      font-weight: bold;
+    }
+
+    main .plan .fatt{
+      font-size: .7rem;
+      font-weight: bold;
+      color: #6A7986;
+    }
+
+    main .row span,
+    main .trial span,
+    main .trial a:last-child{
+      font-size: .8rem;
+    }
+
+    main .row .icon{
+      margin-right: 5px;
+    }
+
+    main .features .icon,
+    main .trial a:last-child{
+      color: #0D69FF;
+    }
+
+    main .trial span,
+    main .trial a:last-child{
+      line-height: 80px;
+    }
+
+    main .plan-description .trial .btn{
+      width: 100%;
+      text-align: center;
+    }
+
+    main .plan-description .trial span{
+      display: inline-block;
+      border-bottom: 1px solid #E6E6E8;
+    }
+
+    main .plan-description h5{
+      font-size: .9rem;
+    }
+
+
+
+    /* /BOX PIANI PER PRIVATI */
+  /* /SEZIONE SELEZIONA IL TUO PIANO */
 
 

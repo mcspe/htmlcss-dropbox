@@ -183,9 +183,37 @@ header .logo{
   main .business{
     flex-wrap: wrap;
   }
+
   main .business-card{
     width: 30%;
   }
+
+  main .business-card p{
+    font-size: .9rem;
+  }
   /* /SEZIONE OPERAZIONI DROPBOX BUSINESS */
+  
+  
+  /* SEZIONE TESTIMONIALS */
+  main .testimonials .container-sml a{
+    display: inline-block;
+    font-size: .8rem;
+    color: #0D69FF;
+  }
+
+  main .testimonial-grid>div:not(.testimonial-overview){
+    width: 30%;
+    flex-wrap: wrap;
+  }
+
+  main .testimonial-grid .testimonial-overview{
+    width: 40%;
+    overflow: auto;
+  }
+
+  main .testimonial-grid div:not(.testimonial-overview)>div{
+    width: 50%;
+  }
+  /* /SEZIONE TESTIMONIALS */
 
 

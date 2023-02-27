@@ -1,0 +1,45 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* DEBUG */
+.debug{
+  background-color: lightskyblue;
+}
+
+/* DISPLAY FLEX */
+.d-flex{
+  display: flex;
+}
+
+.d-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-j-start{
+  justify-content: flex-start;
+}
+
+.fl-j-center{
+  justify-content: center;
+}
+
+.fl-j-end{
+  justify-content: flex-end;
+}
+
+.fl-j-between{
+  justify-content: space-between;
+}
+
+.fl-a-center{
+  align-items: center;
+}
+
+.fl-a-start{
+  align-items: flex-start;
+}

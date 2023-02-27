@@ -207,12 +207,25 @@ header .logo{
   }
 
   main .testimonial-grid .testimonial-overview{
+    position: relative;
     width: 40%;
     overflow: auto;
   }
 
+  main .testimonial-presentation{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   main .testimonial-grid div:not(.testimonial-overview)>div{
+    position: relative;
+    cursor: pointer;
     width: 50%;
+  }
+
+  main .testimonial-grid div:not(.testimonial-overview)>div:hover{
+    box-shadow: inset 0 0 10px 5px #D0E9CD;
   }
   
   main .testimonial-grid div:not(.testimonial-overview)>div::after{
@@ -220,6 +233,44 @@ header .logo{
     display: block;
     padding-bottom: 100%;
   }
+
+  main .testimonial-grid .selected{
+    box-shadow: inset 0 0 10px 10px #D0E9CD;
+  }
+
+  main .left-grid .testimonial-card:nth-child(1){
+    background-color: #A2D39B;
+  }
+  main .left-grid .testimonial-card:nth-child(2){
+    background-color: #61082B;
+  }
+  main .testimonial-card:nth-child(3){
+    background-color: #0093CE;
+  }
+  main .left-grid .testimonial-card:nth-child(4){
+    background-color: #FF1C1C;
+  }
+  main .right-grid .testimonial-card:nth-child(1){
+    background-color: #D5001F;
+  }
+  main .right-grid .testimonial-card:nth-child(2){
+    background-color: #B4D0E7;
+  }
+  main .right-grid .testimonial-card:nth-child(3){
+    background-color: #0D2481;
+  }
+  main .right-grid .testimonial-card:nth-child(4){
+    background-color: #FFD830;
+  }
+  
+  main .testimonial-card img{
+    max-width: 60%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
   /* /SEZIONE TESTIMONIALS */
 
 

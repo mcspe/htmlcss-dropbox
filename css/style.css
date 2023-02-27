@@ -45,14 +45,19 @@ header .logo{
 
 
 /* MAIN */
+/* JUMBOTRON */
 main{
   margin-top: 60px;
+}
+
+main section{
+  padding: 80px 0 0;
 }
 
 main .jumbotron{
   background-color: #B4D0E7;
   min-height: 600px;
-  padding: 80px 0 0;
+  margin-bottom: 100px;
 }
 
 main h1{
@@ -95,3 +100,41 @@ main .jumbotron .img-col img{
   max-width: 100%;
   object-fit: cover;
 }
+/* /JUMBOTRON */
+
+
+/* SEZIONE SELEZIONA IL TUO PIANO */
+main .plan h2{
+  font-size: 35px;
+}
+
+main form label{
+  margin-right: 20px;
+}
+
+/* BOX PIANI PER PRIVATI */
+main .plan .plan-card{
+  border: 1px solid #E6E6E8;
+}
+
+main .plan .plan-card.private{
+  width: 30%;
+  min-height: 800px;
+}
+
+main .plan .plan-tag{
+  border-bottom: 1px solid #E6E6E8;
+  text-align: center;
+  padding: 5px;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+main .plan .plan-description{
+  padding: 20px;
+}
+
+/* /BOX PIANI PER PRIVATI */
+/* /SEZIONE SELEZIONA IL TUO PIANO */
+
+

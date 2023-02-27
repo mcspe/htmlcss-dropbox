@@ -61,6 +61,18 @@
 }
 
 /* MARGINI */
+.m-b15{
+  margin-bottom: 15px;
+}
+
+.m-b20{
+  margin-bottom: 20px;
+}
+
 .m-b30{
   margin-bottom: 30px;
+}
+
+.m-b40{
+  margin-bottom: 40px;
 }

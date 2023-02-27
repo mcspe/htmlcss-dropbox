@@ -160,10 +160,11 @@ header .logo{
 
   /* /SEZIONE SELEZIONA IL TUO PIANO */
 
+
   /* SEZIONE TROVA PARTNER */
   main .partner .container-sml div{
     width: 50%;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 
   main .partner-txt{
@@ -176,5 +177,15 @@ header .logo{
     line-height: 1.4rem;
   }
   /* /SEZIONE TROVA PARTNER */
+
+
+  /* SEZIONE OPERAZIONI DROPBOX BUSINESSR */
+  main .business{
+    flex-wrap: wrap;
+  }
+  main .business-card{
+    width: 30%;
+  }
+  /* /SEZIONE OPERAZIONI DROPBOX BUSINESS */
 
 

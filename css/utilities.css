@@ -10,7 +10,7 @@
 /* DEBUG */
 .debug{
   background-color: lightskyblue;
-  height: 100px;
+  /* height: 100px; */
   border: 1px dashed black;
 }
 

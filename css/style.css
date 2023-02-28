@@ -352,5 +352,38 @@ main section{
     display: none;
   }
   /* /SEZIONE FAQ */
+/* /MAIN */
+
+
+/* FOOTER */
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer .nav-row{
+  padding: 80px 0;
+}
+
+footer .nav-col{
+  margin-right: 10%;
+}
+
+footer .nav-col li{
+  list-style: none;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+footer .nav-col a{
+  text-decoration: none;
+  color: white;
+  font-size: .9rem;
+}
+
+footer .nav-col a:hover{
+  color: #0D69FF;
+}
+/* /FOOTER */
 
 

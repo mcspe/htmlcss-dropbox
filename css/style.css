@@ -391,6 +391,7 @@ footer hr{
 }
 
 footer .lang{
+  cursor: pointer;
   position: relative;
   width: 120px;
   padding: 30px 0;
@@ -404,17 +405,40 @@ footer .lang .chev{
 }
 
 footer .lang-select{
-  flex-direction: column-reverse;
   margin: 0 5px;
 }
 
-footer .hidden{
+footer .lang .hidden{
   display: none;
+  position: absolute;
+}
+
+footer .lang:hover .hidden{
+  display: flex;
+}
+
+footer .lang-select .hidden{
+  width: 120px;
+  top: -25px;
+  left: 0;
+  z-index: 2;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: black;
+}
+
+footer .lang-select .hidden span:hover{
+  border: 1px solid #797979;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+footer .lang-select .hidden span:active{
+  color: white;
 }
 
 footer .chev.hidden{
-  position: absolute;
-  top: 0;
+  top: calc(50% - (.4rem));
   right: 0;
   z-index: 2;
   background-color: black;

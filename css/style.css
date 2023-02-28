@@ -216,6 +216,23 @@ header .logo{
     position: absolute;
     top: 0;
     left: 0;
+    padding: 10%;
+    font-size: .9rem;
+  }
+
+  main .testimonial-presentation a{
+    display: block;
+    width: 30%;
+  }
+
+  main .testimonial-presentation span{
+    display: block;
+    font-weight: bold;
+  }
+
+  main .testimonial-presentation .designed-hr hr{
+    border: 1px solid #E6E6E8;
+    width: 15%;
   }
 
   main .testimonial-grid div:not(.testimonial-overview)>div{

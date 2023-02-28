@@ -361,28 +361,30 @@ footer{
   color: white;
 }
 
-footer .nav-row{
-  padding: 80px 0;
-}
+  /* MENU DI NAVIGAZIONE VERTICALI */
+  footer .nav-row{
+    padding: 80px 0;
+  }
 
-footer .nav-col{
-  margin-right: 10%;
-}
+  footer .nav-col{
+    margin-right: 10%;
+  }
 
-footer .nav-col li{
-  list-style: none;
-  margin-bottom: 10px;
-}
+  footer .nav-col li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
 
-footer .nav-col a{
-  text-decoration: none;
-  color: white;
-  font-size: .8rem;
-}
+  footer .nav-col a{
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+  }
 
-footer .nav-col a:hover{
-  color: #0D69FF;
-}
+  footer .nav-col a:hover{
+    color: #797979;
+  }
+  /* /MENU DI NAVIGAZIONE VERTICALI */
 
 footer hr{
   width: 10%;
@@ -390,59 +392,61 @@ footer hr{
   border-bottom: black;
 }
 
-footer .lang{
-  cursor: pointer;
-  position: relative;
-  width: 120px;
-  padding: 30px 0;
-  color: #797979;
-  font-size: .7rem;
-}
+  /* MENU DI SELEZIONE LINGUA */
+  footer .lang{
+    cursor: pointer;
+    position: relative;
+    width: 120px;
+    padding: 30px 0;
+    color: #797979;
+    font-size: .7rem;
+  }
 
-footer .lang .chev{
-  font-size: .5rem;
-  padding-top: .2rem;
-}
+  footer .lang .chev{
+    font-size: .5rem;
+    padding-top: .2rem;
+  }
 
-footer .lang-select{
-  margin: 0 5px;
-}
+  footer .lang-select{
+    margin: 0 5px;
+  }
 
-footer .lang .hidden{
-  display: none;
-  position: absolute;
-}
+  footer .lang .hidden{
+    display: none;
+    position: absolute;
+  }
 
-footer .lang:hover .hidden{
-  display: flex;
-}
+  footer .lang:hover .hidden{
+    display: flex;
+  }
 
-footer .lang-select .hidden{
-  width: 120px;
-  top: -25px;
-  left: 0;
-  z-index: 2;
-  flex-direction: column-reverse;
-  align-items: center;
-  background-color: black;
-}
+  footer .lang-select .hidden{
+    width: 100px;
+    top: -25px;
+    left: 13px;
+    z-index: 2;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: black;
+  }
 
-footer .lang-select .hidden span:hover{
-  border: 1px solid #797979;
-  border-radius: 5px;
-  padding: 0 10px;
-}
+  footer .lang-select .hidden span:hover{
+    border: 1px solid #797979;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
 
-footer .lang-select .hidden span:active{
-  color: white;
-}
+  footer .lang-select .hidden span:active{
+    color: white;
+  }
 
-footer .chev.hidden{
-  top: calc(50% - (.4rem));
-  right: 0;
-  z-index: 2;
-  background-color: black;
-}
+  footer .chev.hidden{
+    top: calc(50% - (.4rem));
+    right: 0;
+    z-index: 2;
+    background-color: black;
+  }
+  /* /MENU DI SELEZIONE LINGUA */
 /* /FOOTER */
 
 

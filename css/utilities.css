@@ -44,6 +44,7 @@ body{
   }
 /* /SCROLL BAR */
 
+
 h1, h2, h3, h4, h5{
   font-weight: 900;
 }
@@ -132,12 +133,14 @@ img{
 }
 
 .btn-lrg{
+  font-size: .9rem;
   padding: 5px 40px;
 }
 
 .btn-wht{
   background-color: white;
   color: black;
+  font-weight: bold;
 }
 
 .btn-b{

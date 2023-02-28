@@ -230,6 +230,10 @@ header .logo{
     font-weight: bold;
   }
 
+  main .testimonial-presentation .cit{
+    font-style: italic;
+  }
+
   main .testimonial-presentation .designed-hr hr{
     border: 1px solid #E6E6E8;
     width: 15%;
@@ -289,5 +293,70 @@ header .logo{
     transform: translate(-50%, -50%);
   } 
   /* /SEZIONE TESTIMONIALS */
+
+
+  /* SEZIONE CTA */
+  main .cta{
+    background-color: #B4D0E7;
+    padding-bottom: 80px;
+  }
+
+  main .cta h2{
+    color: #61082B;
+    width: 60%;
+  }
+  /* /SEZIONE CTA */
+
+
+  /* SEZIONE FAQ */
+
+main .faq h3{
+  font-size: 1.4rem;
+}
+
+main .qna{
+  cursor: pointer;
+  padding: 30px 0;
+  border-top: 1px solid #E6E6E8;
+  border-bottom: 1px solid #E6E6E8;
+}
+
+main .qna .show-q,
+main .qna .hidden-a{
+  padding: 10px 0;
+}
+
+main .qna span{
+  font-size: .8rem;
+}
+
+main .qna p{
+  color: #6A7986;
+  font-size: .9rem;
+}
+
+main .faq .hidden-a{
+  position: relative;
+  display: none;
+}
+
+main .faq .hidden-a span{
+  position: absolute;
+  top: calc(-100% + 25px);
+  right: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+main .qna:hover .hidden-a{
+  display: block;
+}
+
+
+
+
+
+
+  /* /SEZIONE FAQ */
 
 

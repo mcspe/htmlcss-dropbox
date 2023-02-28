@@ -309,54 +309,55 @@ header .logo{
 
 
   /* SEZIONE FAQ */
+  main .faq{
+    padding-bottom: 80px;
+  }
 
-main .faq h3{
-  font-size: 1.4rem;
-}
+  main .faq h3{
+    font-size: 1.4rem;
+  }
 
-main .qna{
-  cursor: pointer;
-  padding: 30px 0;
-  border-top: 1px solid #E6E6E8;
-  border-bottom: 1px solid #E6E6E8;
-}
+  main .qna{
+    cursor: pointer;
+    padding: 20px 0;
+    border-top: 1px solid #E6E6E8;
+    border-bottom: 1px solid #E6E6E8;
+  }
 
-main .qna .show-q,
-main .qna .hidden-a{
-  padding: 10px 0;
-}
+  main .qna .show-q,
+  main .qna .hidden-a{
+    padding: 10px 0;
+  }
 
-main .qna span{
-  font-size: .8rem;
-}
+  main .qna span{
+    font-size: .8rem;
+  }
 
-main .qna p{
-  color: #6A7986;
-  font-size: .9rem;
-}
+  main .qna p{
+    color: #6A7986;
+    font-size: .9rem;
+  }
 
-main .faq .hidden-a{
-  position: relative;
-  display: none;
-}
+  main .faq .hidden-a{
+    position: relative;
+    display: none;
+  }
 
-main .faq .hidden-a span{
-  position: absolute;
-  top: calc(-100% + 25px);
-  right: 0;
-  z-index: 2;
-  background-color: white;
-}
+  main .faq .hidden-a span{
+    position: absolute;
+    top: calc(-100% + 10px + .9rem);
+    right: 0;
+    z-index: 2;
+    background-color: white;
+  }
 
-main .qna:hover .hidden-a{
-  display: block;
-}
+  main .qna:hover .hidden-a{
+    display: block;
+  }
 
-
-
-
-
-
+  main .qna:hover .fa-chevron-down{
+    display: none;
+  }
   /* /SEZIONE FAQ */
 
 

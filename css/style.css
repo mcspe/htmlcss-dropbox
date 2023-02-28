@@ -10,6 +10,7 @@ header{
 }
 
 header li{
+  position: relative;
   list-style: none;
   display: inline-block;
   margin: 0 15px;
@@ -19,18 +20,52 @@ header .top-sec{
   display: inline-block;
   text-decoration: none;
   line-height: 60px;
-  font-size: .9rem;
-  font-weight: 500;
+  font-size: .8rem;
+  font-weight: 600;
   color: black;
+  z-index: 10;
 }
 
-header .top-sec:hover{
+header .shad:hover{
   box-shadow: inset 0 -2px 0 black;
 }
 
 header .logo{
   vertical-align: middle;
 }
+
+  /* DROP-DOWN MENU */
+  header .drop-menu{
+    position: absolute;
+    left: -20px;
+    top: 100%;
+    z-index: 5 !important;
+    width: 200px;
+    background-color: transparent;
+    padding: 20px 0;
+  }
+
+  header .drop-menu li{
+    width: 100%;
+    margin: 0;
+  }
+
+  header .drop-menu a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: black;
+  }
+
+  header .drop-menu li:hover{
+    background-color: #EBEAEB;
+  }
+
+  /* /DROP-DOWN MENU */
 /* /HEADER */
 
 

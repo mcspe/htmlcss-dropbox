@@ -41,6 +41,7 @@ header .logo{
     width: 200px;
     height: 0;
     background-color: white;
+    opacity: 0;
     display: none;
   }
 
@@ -52,7 +53,8 @@ header .logo{
   @keyframes drop-down {
     100%{
       padding: 20px 0;
-      height: 200%;
+      opacity: 1;
+      height: auto;
     }
   }
 

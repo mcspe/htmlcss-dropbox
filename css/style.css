@@ -285,10 +285,6 @@ main section{
     cursor: pointer;
     width: 50%;
   }
-
-  main .testimonial-grid div:not(.testimonial-overview)>div:hover{
-    box-shadow: inset 0 0 10px 5px #D0E9CD;
-  }
   
   main .testimonial-grid div:not(.testimonial-overview)>div::after{
     content: "";
@@ -297,7 +293,7 @@ main section{
   }
 
   main .testimonial-grid .selected{
-    box-shadow: inset 0 0 10px 10px #D0E9CD;
+    box-shadow: inset 0 0 0 8px #D0E9CD;
   }
 
   main .left-grid .testimonial-card:nth-child(1){

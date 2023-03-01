@@ -7,6 +7,7 @@ header{
   width: 100%;
   height: 60px;
   background-color: #fff;
+  box-shadow: 0 1px 5px 0 #797979;
 }
 
 header li{
@@ -33,7 +34,7 @@ header .logo{
   vertical-align: middle;
 }
 
-  /* DROP-DOWN MENU */
+/* DROP-DOWN MENU */
   header .drop-menu{
     position: absolute;
     left: -20px;

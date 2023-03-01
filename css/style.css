@@ -358,8 +358,11 @@ main section{
   main .qna{
     cursor: pointer;
     padding: 20px 0;
-    border-top: 1px solid #E6E6E8;
     border-bottom: 1px solid #E6E6E8;
+  }
+
+  main .faq .container-sml .qna:nth-child(2){
+    border-top: 1px solid #E6E6E8;
   }
 
   main .qna .show-q,

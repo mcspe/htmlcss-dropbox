@@ -382,6 +382,7 @@ main section{
   main .faq .hidden-a{
     position: relative;
     display: none;
+    opacity: 0;
   }
 
   main .faq .hidden-a span{
@@ -393,7 +394,14 @@ main section{
   }
 
   main .qna:hover .hidden-a{
-    display: block;
+    display: flex;
+    animation: show .5s ease-in 1 forwards;
+  }
+
+  @keyframes show {
+    100%{
+      opacity: 1;
+    }
   }
 
   main .qna:hover .fa-chevron-down{

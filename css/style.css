@@ -23,7 +23,6 @@ header .top-sec{
   font-size: .8rem;
   font-weight: 600;
   color: black;
-  z-index: 10;
 }
 
 header .shad:hover{
@@ -39,10 +38,22 @@ header .logo{
     position: absolute;
     left: -20px;
     top: 100%;
-    z-index: 5 !important;
     width: 200px;
-    background-color: transparent;
-    padding: 20px 0;
+    height: 0;
+    background-color: white;
+    display: none;
+  }
+
+  header .drop:hover .drop-menu{
+    display: block;
+    animation: drop-down .2s linear forwards;
+  }
+
+  @keyframes drop-down {
+    100%{
+      padding: 20px 0;
+      height: 200%;
+    }
   }
 
   header .drop-menu li{
@@ -462,7 +473,7 @@ footer hr{
     z-index: 2;
     flex-direction: column-reverse;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .7);
   }
 
   footer .lang-select .hidden span:hover{

@@ -56,40 +56,40 @@
 
 .hover-point:nth-child(1):hover ~ img {
   transform-origin: right top;
-  transform: perspective(300px) rotateX(10deg) rotateY(-10deg) rotateZ(2deg);
+  transform: perspective(600px) rotateX(10deg) rotateY(-10deg) rotateZ(2deg);
 }
 
 .hover-point:nth-child(2):hover ~ img {
   transform-origin: center top;
-  transform: perspective(300px) rotateX(10deg);
+  transform: perspective(600px) rotateX(10deg);
 }
 
 .hover-point:nth-child(3):hover ~ img {
   transform-origin: left top;
-  transform: perspective(300px) rotateX(10deg) rotateY(10deg) rotateZ(-2deg);
+  transform: perspective(600px) rotateX(10deg) rotateY(10deg) rotateZ(-2deg);
 }
 
 .hover-point:nth-child(4):hover ~ img {
   transform-origin: left center;
-  transform: perspective(300px) rotateY(-10deg);
+  transform: perspective(600px) rotateY(-10deg);
 }
 
 .hover-point:nth-child(5):hover ~ img {
   transform-origin: right center;
-  transform: perspective(300px) rotateY(10deg);
+  transform: perspective(600px) rotateY(10deg);
 }
 
 .hover-point:nth-child(6):hover ~ img {
   transform-origin: right bottom;
-  transform: perspective(300px) rotateX(-10deg) rotateY(-10deg) rotateZ(-2deg);
+  transform: perspective(600px) rotateX(-10deg) rotateY(-10deg) rotateZ(-2deg);
 }
 
 .hover-point:nth-child(7):hover ~ img {
   transform-origin: center bottom;
-  transform: perspective(300px) rotateX(-10deg);
+  transform: perspective(600px) rotateX(-10deg);
 }
 
 .hover-point:nth-child(8):hover ~ img {
   transform-origin: left bottom;
-  transform: perspective(300px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
+  transform: perspective(600px) rotateX(-10deg) rotateY(10deg) rotateZ(2deg);
 }
